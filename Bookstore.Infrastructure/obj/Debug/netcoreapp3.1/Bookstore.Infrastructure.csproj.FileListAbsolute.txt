@@ -1,0 +1,12 @@
+/home/shepshook/code/rider/Task7/Bookstore.Infrastructure/bin/Debug/netcoreapp3.1/Bookstore.Infrastructure.deps.json
+/home/shepshook/code/rider/Task7/Bookstore.Infrastructure/bin/Debug/netcoreapp3.1/Bookstore.Infrastructure.dll
+/home/shepshook/code/rider/Task7/Bookstore.Infrastructure/bin/Debug/netcoreapp3.1/Bookstore.Infrastructure.pdb
+/home/shepshook/code/rider/Task7/Bookstore.Infrastructure/bin/Debug/netcoreapp3.1/Bookstore.Core.dll
+/home/shepshook/code/rider/Task7/Bookstore.Infrastructure/bin/Debug/netcoreapp3.1/Bookstore.Core.pdb
+/home/shepshook/code/rider/Task7/Bookstore.Infrastructure/obj/Debug/netcoreapp3.1/Bookstore.Infrastructure.csprojAssemblyReference.cache
+/home/shepshook/code/rider/Task7/Bookstore.Infrastructure/obj/Debug/netcoreapp3.1/Bookstore.Infrastructure.csproj.CoreCompileInputs.cache
+/home/shepshook/code/rider/Task7/Bookstore.Infrastructure/obj/Debug/netcoreapp3.1/Bookstore.Infrastructure.AssemblyInfoInputs.cache
+/home/shepshook/code/rider/Task7/Bookstore.Infrastructure/obj/Debug/netcoreapp3.1/Bookstore.Infrastructure.AssemblyInfo.cs
+/home/shepshook/code/rider/Task7/Bookstore.Infrastructure/obj/Debug/netcoreapp3.1/Bookstore.Infrastructure.csproj.CopyComplete
+/home/shepshook/code/rider/Task7/Bookstore.Infrastructure/obj/Debug/netcoreapp3.1/Bookstore.Infrastructure.dll
+/home/shepshook/code/rider/Task7/Bookstore.Infrastructure/obj/Debug/netcoreapp3.1/Bookstore.Infrastructure.pdb

@@ -1,0 +1,83 @@
+@model Book
+
+@{
+    ViewBag.Title = $"{Model.Title} book";
+}
+
+<div class="card">
+    <div class="card-header">
+        <h3>Book details</h3>
+    </div>
+    <div class="card-body">
+        <table class="table table-bordered table-sm table-hover">
+            <tr>
+                <th>Title</th>
+                <td>@Model.Title</td>
+            </tr>
+            <tr>
+                <th>Authors</th>
+                <td>
+                    @if (Model.BookAuthors.Count == 0)
+                    {
+                        <i class="text-black-50">No info</i>
+                    }
+                    else
+                    {
+                        foreach (var ba in Model.BookAuthors)
+                        {
+                            <a asp-controller="Author" asp-action="Details" asp-route-id="@ba.AuthorId">@ba.Author</a>
+                        }
+                    }
+                </td>
+            </tr>
+            <tr>
+                <th>Cover</th>
+                <td>
+                    <img src="@Model.CoverImage" alt=""/>
+                </td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    @if (string.IsNullOrEmpty(Model.Description))
+                    {
+                        <i class="text-black-50">No info</i>
+                    }
+                    else
+                    {
+                        <text>@Model.Description</text>
+                    }
+                </td>
+            </tr>
+            <tr>
+                <th>Publication Date</th>
+                <td>
+                    @if (Model.PublicationDate.HasValue)
+                    {
+                        <text>@Model.PublicationDate.Value.ToShortDateString()</text>
+                    }
+                    else
+                    {
+                        <i class="text-black-50">No info</i>
+                    }
+                </td>
+            </tr>
+            <tr>
+                <th>Rating</th>
+                <td>
+                    @if (Model.Rating.HasValue)
+                    {
+                        <text>@Model.Rating.ToString()</text>
+                    }
+                    else
+                    {
+                        <i class="text-black-50">No info</i>
+                    }
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="card-footer text-right">
+        <a asp-action="List" class="btn btn-outline-primary">Home</a>
+    </div>
+</div>
